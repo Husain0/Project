@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 
-img {
+#img1 {
     width: 175px;
     border-radius: 50px;
 }
@@ -103,4 +103,36 @@ a {
 
 #h14 {
     font-size: 50px;
+}
+#img2 {
+     width: 250px;
+     height: 250px;
+     transition: transform .2s;
+}
+#img2:hover {
+    transform: scale(0.9)
+}
+#img3 {
+     width: 250px;
+     height: 250px;
+     transition: transform .2s;
+}
+#img3:hover {
+    transform: scale(0.9);
+}
+#img4 {
+     width: 250px;
+     height: 250px;
+     transition: transform .2s;
+}
+#img4:hover {
+    transform: scale(0.9);
+}
+#img5 {
+     width: 250px;
+     height: 250px;
+     transition: transform .2s;
+}
+#img5:hover {
+    transform: scale(0.9);
 }
