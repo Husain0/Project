@@ -40,13 +40,12 @@ h2 {
 }
 
 .menu {
-    list-style: none;
-    font-family: 'Hachi Maru Pop', cursive;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
     z-index: 10;
-    cursor: pointer;
 }
 
 .link {
@@ -62,7 +61,8 @@ h2 {
 }
 
 .link:hover {
-    background-color: chartreuse;
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 html {
@@ -71,7 +71,8 @@ html {
 
 a {
     text-decoration: none;
-    font-size: 30px;
+    color: cornflowerblue;
+    text-shadow: 2px 2px gainsboro;
 }
 
 .apps:hover {
@@ -104,35 +105,75 @@ a {
 #h14 {
     font-size: 50px;
 }
-#img2 {
-     width: 250px;
-     height: 250px;
-     transition: transform .2s;
+
+#h15 {
+    font-size: 50px;
 }
+
+#img2 {
+    width: 250px;
+    height: 250px;
+    transition: transform .2s;
+}
+
 #img2:hover {
     transform: scale(0.9)
 }
+
 #img3 {
-     width: 250px;
-     height: 250px;
-     transition: transform .2s;
+    width: 250px;
+    height: 250px;
+    transition: transform .2s;
 }
+
 #img3:hover {
     transform: scale(0.9);
 }
+
 #img4 {
-     width: 250px;
-     height: 250px;
-     transition: transform .2s;
+    width: 250px;
+    height: 250px;
+    transition: transform .2s;
 }
+
 #img4:hover {
     transform: scale(0.9);
 }
+
 #img5 {
-     width: 250px;
-     height: 250px;
-     transition: transform .2s;
+    width: 250px;
+    height: 250px;
+    transition: transform .2s;
 }
+
 #img5:hover {
     transform: scale(0.9);
+}
+
+.apps:hover {
+    color: blueviolet;
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: aliceblue;
+}
+
+#contact {
+    background-color: blue;
+}
+
+.contact_1 a {
+    color: white;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+.apps {
+    font-size: 30px;
+}
+#contact iframe {
+    width: 100%;
 }
